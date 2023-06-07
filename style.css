@@ -1,0 +1,23 @@
+* {font-family: "Brush Script MT", "Georgia", "Times New Roman"}
+
+.title{text-align: center;
+font-size: 50px;
+color: rgb(230, 27, 166);}
+
+button{background-color: pink;
+border-color: purple;
+border-style: dotted;}
+
+.subtitle{font-size: 30px;
+color: rgb(137, 0, 94);}
+
+.banana::before{
+    content: "🍌";}
+
+.quiche::before{content: "🥦";}
+
+.banana,.quiche{
+    display: block;
+    margin: 0.2rem;
+    font-size: 25px;
+    color: black;}
